@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 })); 
 
 const mysqlConfig = {
-  host: 'localhost',
+  host: 'host.docker.internal', // to access mysql container within docker network
   user: 'user',
   password: 'user',
   database: 'shift'
