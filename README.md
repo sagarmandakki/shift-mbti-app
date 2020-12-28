@@ -2,7 +2,7 @@ To run the application, all you need to do is
 1. docker run -p 3306:3306 --name shift-mysql-8 -d  isagarmandakki/shift-mysql:1.1
  (Wait for a few seconds until the mysql db starts fully. ~15 seconds)
 2. docker run -p 3000:3000 -p 3001:3001 -d isagarmandakki/shift-mbti
-
+3. Open localhost:3000
 
 All test cases pass!
 
